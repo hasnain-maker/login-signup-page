@@ -1,99 +1,77 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background: linear-gradient(to right, #87CEEB, #FFB6C1);
-
+body{
+    background: linear-gradient(to right,#87cEEB,#FFB6c1);
     font-family: sans-serif;
 }
-
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
-.myForm {
+.myForm{
     border: 2px solid white;
     color: rgb(8, 8, 8);
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: white;
-    border-radius: 10px;
     padding: 20px;
     height: 540px;
+    background: white;
+    border-radius: 10px;
 
 }
-
-.myForm h1 {
+.myForm h1{
     margin-bottom: 30px;
 }
-
-form {
+form{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-
-
 }
-
-form input {
+form input{
     margin: 6px;
     padding: 15px;
     border-radius: 10px;
     width: 300px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2)0px 2px 8px 0px;
     border: none;
-
 }
-
-button {
+button{
     border: none;
     padding: 15px;
     width: 150px;
     border-radius: 10px;
-
     background: none;
 }
-
-.mybuttons {
+.myButtons{
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
-.mylogin {
-    background: linear-gradient(to right, #0D47A1, #42A5F5);
-
+.mylogin{
+    background: linear-gradient(to right,#0D47a1,#42a5f5);
     color: white;
 }
-
-form a {
+form a{
     text-decoration: none;
     color: rgb(77, 109, 214);
     margin-left: 5px;
-
 }
-
-.login {
+.login{
     border: 1px solid gray;
-    background: linear-gradient(to right, #0D47A1, #42A5F5);
-
-    color: white;
-    width: 100%;
-    margin-top: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: linear-gradient(to right,#0D47a1,#42a5f5);
+color: wheat;
+width: 100%;
+margin-top:20px ;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
-a {
+p a{
     text-decoration: none;
 }
-
-p {
+p{
     margin-top: 30px;
-    /* margin-bottom: 50px; */
 }
